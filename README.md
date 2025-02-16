@@ -10,8 +10,16 @@
 Este projeto de **Análise de Cohort** foi desenvolvido em **R** para avaliar a **retenção de clientes** de um varejo online, identificando padrões de comportamento e oportunidades de melhoria. Utilizando técnicas de análise de dados e visualização, o estudo forneceu insights para aumentar a fidelização e otimizar estratégias de marketing.  
 
 **Resultado Chave:**  
-✅ Identificação de uma **queda de 30% na retenção** após o 2º mês, levando à criação de campanhas de reengajamento.  
+✅  A maioria dos cohorts apresenta uma queda gradual na retenção após o primeiro mês.
+✅  Cohorts de **final de ano (ex: 2009-12) têm retenção mais alta**, enquanto cohorts de meados do ano (ex: 2010-06) apresentam quedas mais acentuadas. 
+✅  Cohorts de **2011 (ex: 2011-03)** mantêm **retenção acima de 20% por mais tempo**, indicando melhorias nas estratégias de fidelização.
+✅  Quedas significativas de retenção ocorrem principalmente no **3º e 6º mês**, sugerindo momentos-chave para intervenções.
 
+**Recomendações**
+
+✅ Campanhas de Reengajamento: **Focar no 2º e 3º mês** para evitar quedas acentuadas.
+✅ Aproveitar Sazonalidade: Promoções de fim de ano podem aumentar a retenção.
+✅ Monitorar Cohorts Recentes: Analisar estratégias de cohorts com alta retenção (ex: 2011-03) para replicar sucessos.
 
 ---
 
@@ -33,16 +41,10 @@ Este projeto de **Análise de Cohort** foi desenvolvido em **R** para avaliar a 
    - Cálculo da retenção mensal para cada cohort.  
 3. **Análise e Visualização:**  
    - Heatmap de retenção para identificar padrões.  
-   - Gráficos de linha para comparar cohorts ao longo do tempo.  
+  
 
 ### Dashboard
 link para o dashboard: https://app.powerbi.com/view?r=eyJrIjoiZmMwZGMwMjgtM2Y2Yy00ZDBlLWJkNmQtN2U5YjY3ODI4NmY5IiwidCI6IjI2MjEzZmVjLWExMTEtNDYxOC1hYzkwLTMwMDkxYTgwODdiNiJ9
-
-
-### 📈 **Resultados Detalhados**  
-| Métrica               | Antes da Análise | Após Ações de Reengajamento | Impacto               |  
-|------------------------|------------------|----------------------------|-----------------------|  
-| Retenção no 2º Mês     | 50%             | 62%                        | **+12% de aumento**   |  
 
 
 ---
@@ -53,7 +55,9 @@ link para o dashboard: https://app.powerbi.com/view?r=eyJrIjoiZmMwZGMwMjgtM2Y2Yy
   <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white" alt="RStudio">  
   <img src="https://img.shields.io/badge/tidyverse-1A162D?style=for-the-badge&logo=tidyverse&logoColor=white" alt="tidyverse">  
   <img src="https://img.shields.io/badge/ggplot2-1A162D?style=for-the-badge&logo=ggplot2&logoColor=white" alt="ggplot2">  
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">  
 </div>  
+
 
 ---
 
